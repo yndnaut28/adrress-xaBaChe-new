@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (xaValue === "ttr") {
         khom = khom.replace(/^Khu/, "Thôn");
       }
-      showPopup("🏠 Địa chỉ: " + khom + ", " + xaText + ", tỉnh Quảng Ninh");
+      showPopup("🏠 Địa chỉ: " + khom + ", xã Ba Chẽ, tỉnh Quảng Ninh");
     }
   });
 });
