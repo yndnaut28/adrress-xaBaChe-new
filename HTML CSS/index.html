@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XÃ BA CHẼ - QUẢNG NINH</title>
+  <link rel="icon" type="image.png" href="image.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="padding-top: 30px;">
+  <div id="toast"></div>
+  <div class="container">
+    <div class="card" style=" padding-top: 10px;padding-bottom: 20px;padding-left: 20px;padding-right: 20px;
+    margin-bottom: 10px;">
+      <img src="/IMG/logo.png" alt="Logo" class="logo">
+      <h1>Tra cứu địa chỉ mới</h1>
+      <p class="subtitle">XÃ BA CHẼ, TỈNH QUẢNG NINH</p>
+
+      <form>
+        <label for="tinh"><strong>Tỉnh</strong></label>
+        <select id="tinh">
+          <option> Quảng Ninh </option>
+        </select>
+
+        <label for="thanhpho"><strong>Huyện (cũ)</strong></label>
+        <select id="thanhpho">
+          <option> Ba Chẽ </option>
+        </select>
+
+        <label for="xa"><strong>Thị trấn/Xã (cũ)</strong></label>
+        <select id="xa">
+          <option value="">-- Chọn Thị Trấn/Xã --</option>
+          <option value="ttr" > Thị trấn Ba Chẽ </option>
+          <option value="xdd"> Xã Đồn Đạc </option>
+          <option value="xns"> Xã Nam Sơn </option>
+          <option value="xts"> Xã Thanh Sơn </option>
+        </select>
+
+        <label for="khom"> <strong>Thôn/Khu (cũ)</strong></label>
+        <select id="khom">
+          <option>-- Chọn Thôn/Khu --</option>
+        </select>
+        <button type="button" id="btnshow">Xem địa chỉ</button>
+      </form>
+    </div>
+    <footer>
+      Người thực hiện: <strong>Phạm Tuấn Duy</strong> - Đoàn thanh niên Xã Ba Chẽ 2025
+    </footer>
+  </div>
+  <div id="popup">
+  <div id="popup-content">
+    <span id="popup-close">&times;</span>
+    <div id="popup-body">
+      <img id="popup-logo" src="/IMG/logo.png" alt="Logo">
+      <p id="popup-message"></p>
+    </div>
+  </div>
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
